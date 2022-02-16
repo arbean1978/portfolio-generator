@@ -42,7 +42,7 @@ const generateProjects = projectsArr => {
   };
 // create the about section
       return '';
-    }
+
   
     return `
       <section class="my-3" id="about">
@@ -50,7 +50,7 @@ const generateProjects = projectsArr => {
         <p>${aboutText}</p>
       </section>
     `;
-  };
+
 module.exports = templateData =>{
     console.log(templateData);
 const { projects, about, ...header } = templateData;
